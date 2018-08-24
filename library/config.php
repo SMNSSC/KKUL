@@ -1,7 +1,7 @@
 <?php
 	$Hostname = "localhost";  //it2.sut.ac.th
 	$Username = "root";  //webdb159g31
-	$Password = "";  //passwdg31
+	$Password = "12345678";  //passwdg31
 	$Database = "ressup";  //webdb159g31
 	$Connection = mysqli_connect($Hostname , $Username , $Password , $Database);
 	if ($Connection->connect_error) {
