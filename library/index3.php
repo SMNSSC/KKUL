@@ -29,111 +29,7 @@
     $("#show").click(function(){$("#3").show();});
   });
   </script>
-  <!--Show click-->
-
-  <style>
-* {box-sizing: border-box}
-body {font-family: Verdana, sans-serif; margin:0}
-.mySlides {display: none}
-img {vertical-align: middle;}
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
-}
-/* End Slideshow container */
-
-
-
-</style>
-
+  
 </head>
 
 <header>
@@ -179,7 +75,7 @@ img {vertical-align: middle;}
 <div class="col-sm-12 col-md-12 col-lg-12">
 <div id='cssmenu'>
 <ul align="center">
-   <li class="col-sm-4 col-md-4 col-lg-2" align="center"><a href="index2.php"><img src="images/home.png"></a></li>
+   <li class="col-sm-4 col-md-4 col-lg-2" align="center"><a href="index.php"><img src="images/home.png"></a></li>
    <li class="col-sm-4 col-md-4 col-lg-2" class='active has-sub' ><a href='#'><img src="images/researchsup.png"></a>
       <ul>
          <li class='has-sub'><a href='#'><span>Help</span></a>
@@ -187,7 +83,7 @@ img {vertical-align: middle;}
                <li><a href='#'><span>Ask a librarian</span></a></li>
                <li><a href='#'><span>Live Chat</span></a></li>
                <li><a href='#'><span>3 step for research</span></a></li>
-               <li class='last'><a href='#'><span>Learn by yourself</span></a></li>
+               <li class='last'><a href="resdiy.php"><span>Learn by yourself</span></a></li>
             </ul>
          </li>
          <li class='has-sub'><a href='#'><span>Research Service</span></a>
@@ -254,36 +150,40 @@ img {vertical-align: middle;}
 <!--End Menu-->
 
 <!--Start slide-->
-<div class="slideshow-container" class="col-sm-12 col-md-12 col-lg-12">
+<div class="container">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
 
-<div class="mySlides">
-  <div class="numbertext">1 / 3</div>
-  <img src="images/banner.jpg" style="width: 100%; height: 250px;">
-  <div class="text"> </div>
-</div>
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="images/banner.jpg" alt="Los Angeles" style="width:100%;">
+      </div>
 
-<div class="mySlides">
-  <div class="numbertext">2 / 3</div>
-  <img src="images/banner.jpg" style="width: 100%; height: 250px;">
-  <div class="text"> </div>
-</div>
+      <div class="item">
+        <img src="images/banner.jpg" alt="Chicago" style="width:100%;">
+      </div>
+    
+      <div class="item">
+        <img src="images/banner.jpg" alt="New york" style="width:100%;">
+      </div>
+    </div>
 
-<div class="mySlides">
-  <div class="numbertext">3 / 3</div>
-  <img src="images/banner.jpg" style="width: 100%; height: 250px;">
-  <div class="text"> </div>
-</div>
-
-<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-<a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-</div>
-<br>
-
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span> 
-  <span class="dot" onclick="currentSlide(2)"></span> 
-  <span class="dot" onclick="currentSlide(3)"></span> 
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
 </div>
 <!--End slide-->
 
@@ -291,99 +191,104 @@ img {vertical-align: middle;}
 <!--Content-->
 <br>
 <div>
- <div class="container">
-  <div class="row">
-    <div class="col-sm-6 col-md-6 col-lg-6">
-      <div class="container">
-      <img src="images/process.png" width="100%" usemap="#image-map">
-      <map name="image-map">
-      <area target="" alt="Planning" title="Planning" coords="252,117,115" shape="circle" data-toggle="modal" data-target="#myModal"> 
+  <div class="container">
+      <div class="row">
 
-        <!-- Modal -->
-        <div class="modal fade" id="myModal" role="dialog">
-          <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h1 class="modal-title">&nbsp;Planning</h1>
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-             </div>
-              <div class="modal-body">
-                <font size="3" style="color: black;">
-                  &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://library.kku.ac.th/database/" style="color: #d14900;"><b>KKU E- Resource</a><br>
-                  &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://library.kku.ac.th/library2013/index.php?option=com_content&view=article&id=306&Itemid=711" style="color: #d14900;"><b>ILL</a><br>
-                  &nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.library.kku.ac.th" style="color: #d14900;"><b>RSS</a><br>
-                  &nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.library.kku.ac.th" style="color: #d14900;"><b>Information evaluation</a><br>
-                  &nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.library.kku.ac.th" style="color: #d14900;"><b>Reference management</a>
-                </font>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
+        <div class="">
+          <img src="images/process.png" width="100%" usemap="#image-map">
+            <map name="image-map">
+            <!-- Modal 1 -->  
+            <area alt="Planning" title="Planning" coords="252,117,115" shape="circle" data-toggle="modal" data-target="#myModal1">
+                <div class="modal fade" id="myModal1" role="dialog">
+                  <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title">&nbsp;Planning</h1>
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      </div>
+                        <div class="modal-body">
+                          <font size="3" style="color: black;">
+                          &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://library.kku.ac.th/database/" style="color: #d14900;">
+                            <b>Ask a librarian</a><br>
+                          &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://library.kku.ac.th/library2013/index.php?option=com_content&view=article&id=306&Itemid=711" style="color: #d14900;">
+                            <b>Live chat</a><br>
+                          &nbsp;&nbsp;&nbsp;&nbsp;<a href="resdiy.php" style="color: #d14900;">
+                            <b>Learn by yourself</a><br>
+                          &nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.library.kku.ac.th" style="color: #d14900;">
+                            b>Subject librarian</a><br>
+                        </font>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </area>
+          
+          <!-- Modal 2 -->
+              <area alt="Working" title="Working" coords="381,334,116" shape="circle" data-toggle="modal" data-target="#myModal2" >  
+                <div class="modal fade" id="myModal2" role="dialog">
+                  <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                          <h2 class="modal-title">Working</h2>
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      </div>
+                        <div class="modal-body">
+                            <font size="3" style="color: black;">
+                            &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://library.kku.ac.th/database/" style="color: #99b441;"><b>KKU E- Resource</a><br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://library.kku.ac.th/library2013/index.php?option=com_content&view=article&id=306&Itemid=711" style="color: #99b441;"><b>ILL</a><br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.library.kku.ac.th" style="color: #99b441;"><b>RSS</a><br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.library.kku.ac.th" style="color: #99b441;"><b>Information evaluation</a><br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.library.kku.ac.th" style="color: #99b441;"><b>Reference management</a>
+                          </font>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </area>
+
+          <!-- Modal -->
+              <area alt="Publishing" title="Publishing" coords="128,340,112" shape="circle" data-toggle="modal" data-target="#myModal3">
+                <div class="modal fade" id="myModal3" role="dialog">
+                  <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                          <h2 class="modal-title">Publishing</h2>
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      </div>
+                        <div class="modal-body">
+                            <font size="3" style="color: black;">
+                            &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://library.kku.ac.th/database/" style="color: #99b441;"><b>KKU E- Resource</a><br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://library.kku.ac.th/library2013/index.php?option=com_content&view=article&id=306&Itemid=711" style="color: #99b441;"><b>ILL</a><br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.library.kku.ac.th" style="color: #99b441;"><b>RSS</a><br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.library.kku.ac.th" style="color: #99b441;"><b>Information evaluation</a><br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.library.kku.ac.th" style="color: #99b441;"><b>Reference management</a>
+                          </font>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </area>
+            </map>       
         </div>
-      <!--</div> -->
-      </area>
-
-
-      <area target="" alt="Working" title="Working" coords="381,334,116" shape="circle" data-toggle="modal" data-target="#myModal" >
-         <!-- Modal -->
-        <div class="modal fade" id="myModal" role="dialog">
-          <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h2 class="modal-title">Working</h2>
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-             </div>
-              <div class="modal-body">
-                  <font size="3" style="color: black;">
-                  &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://library.kku.ac.th/database/" style="color: #d14900;"><b>KKU E- Resource</a><br>
-                  &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://library.kku.ac.th/library2013/index.php?option=com_content&view=article&id=306&Itemid=711" style="color: #d14900;"><b>ILL</a><br>
-                  &nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.library.kku.ac.th" style="color: #d14900;"><b>RSS</a><br>
-                  &nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.library.kku.ac.th" style="color: #d14900;"><b>Information evaluation</a><br>
-                  &nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.library.kku.ac.th" style="color: #d14900;"><b>Reference management</a>
-                </font>
+              <div align="center">
+                <br><br><br><br><br><br>
+                <h1 align="center"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  DO IT YOURSELF
+                </h1>
+                <h3 align="center"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  Start Research by 3 Step
+                </h3>
               </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
-      </area>
-
-      <area target="" alt="Publishing" title="Publishing" coords="128,340,112" shape="circle" data-toggle="modal" data-target="#myModal">
-        <!-- Modal -->
-        <div class="modal fade" id="myModal" role="dialog">
-          <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h2 class="modal-title">Modal Header</h2>
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-             </div>
-              <div class="modal-body">
-                  <p>This is a large modal.</p>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </area>
-      </map>
-
-    </div>
-    </div>
-    </div>
-    </div>
-          <div class="col-sm-6 col-md-6 col-lg-6" align="center">
-              <br><br><br> <br>
-              <h1><b>DO IT YOURSELF</h1>
-              <h4><b>Start Research by 3 Step</h4>
-          </div>    
-  </div>
   </div>
 </div>
 <!--End Content-->
@@ -401,7 +306,7 @@ img {vertical-align: middle;}
           </div>
           
           <div class="col-sm-12 col-md-12 col-lg-6" align="left"><br>
-            <p style="font-size: 10px;"><b>สำนักหอสมุด มหาวิทยาลัยขอนแก่น <br>
+            <p style="font-size: 20px;"><b>สำนักหอสมุด มหาวิทยาลัยขอนแก่น <br>
                 123 ถนนมิตรภาพ ต.ในเมือง อ.เมือง จ.ขอนแก่น 40002 <br>
                 โทรศัพท์: 0 4320 2541, โทรสาร: 0 4320 2543 <br>
                 อีเมล: library@kku.ac.th <br>

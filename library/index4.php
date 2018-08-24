@@ -177,7 +177,7 @@ img {vertical-align: middle;}
 <div class="col-sm-12 col-md-12 col-lg-12">
 <div id='cssmenu'>
 <ul align="center">
-   <li class="col-sm-4 col-md-4 col-lg-2" align="center"><a href="index2.php"><img src="images/home.png"></a></li>
+   <li class="col-sm-4 col-md-4 col-lg-2" align="center"><a href="index.php"><img src="images/home.png"></a></li>
    <li class="col-sm-4 col-md-4 col-lg-2" class='active has-sub' ><a href='#'><img src="images/researchsup.png"></a>
       <ul>
          <li class='has-sub'><a href='#'><span>Help</span></a>

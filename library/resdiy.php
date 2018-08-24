@@ -32,8 +32,8 @@
 
       <div class="col-sm-6 col-md-6 col-lg-6">
         <div class="feature-text" align="right" >
-            <font color=#CC3300 size=6 wi><B>All About Research</B></font> 
-            <font color=#FF9900 size=3 ><B>By KKU Library</B></font> 
+            <font color=#CC3300 size=6><B>All About Research</B></font> 
+            <font color=#FF9900 size=3><B>By KKU Library</B></font> 
         </div>
         <br>
         <div align="right">
@@ -70,10 +70,10 @@
       <ul>
          <li class='has-sub'><a href='#'><span>Help</span></a>
             <ul>
-               <li><a href='#'><span>Ask a librarian</span></a></li>
-               <li><a href='#'><span>Live Chat</span></a></li>
-               <li><a href='#'><span>3 step for research</span></a></li>
-               <li class='last'><a href='#'><span>Learn by yourself</span></a></li>
+               <li><a href="https://gssapps.ebscohost.com/chat/prod/chat?locale=en&group=50"><span>Ask a librarian</span></a></li>
+               <li><a href="https://gssapps.ebscohost.com/chat/prod/chat?locale=en&group=50"><span>Live Chat</span></a></li>
+               <li><a href="index.php#3process"><span>3 step for research</span></a></li>
+               <li class='last'><a href="resdiy.php"><span>Learn by yourself</span></a></li>
             </ul>
          </li>
          <li class='has-sub'><a href='#'><span>Research Service</span></a>
@@ -115,7 +115,7 @@
          </li>
          <li class='has-sub'><a href='#'><span>Research Data Management</span></a>
             <ul>
-               <li><a href='#'><span>3 step for research</span></a></li>
+               <li><a href="index.php#3process"><span> </span></a></li>
             </ul>
          </li>
       </ul>
@@ -166,10 +166,42 @@
                 </div>
                 <div id="question0" class="panel-collapse collapse" style="height: 0px;">
                   <div class="panel-body">
-                     <h5><span class="label label-primary">Answer</span></h5>
-
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five <a href="http://jquery2dotnet.com/" class="label label-success">http://jquery2dotnet.com/</a> centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                        </p>
+                     <!-- -->
+                     <div class="container">
+                        <div class="row">
+                          <div class="col-sm-4 col-md-4 col-lg-4">
+                            <div style="width:200px; height:290px;">
+                              <a href="#" target="_blank">
+                                <img class="img-responsive" src="images/research.png" alt="Lights" style="width:100%;">
+                                <div class="caption">
+                                  <br><p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="col-sm-4 col-md-4 col-lg-4">
+                            <div style="width:200px; height:290px;">
+                              <a href="#" target=" ">
+                                <img class="img-responsive" src="images/research.png" alt="Nature" style="width:100%;">
+                                <div class="caption">
+                                  <br><p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="col-sm-4 col-md-4 col-lg-4">
+                            <div style="width:200px; height:290px;">
+                              <a href="#" target=" ">
+                                <img class="img-responsive" src="images/research.png" alt="Fjords" style="width:100%;">
+                                <div class="caption">
+                                  <br><p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    <!-- -->
                   </div>
                 </div>
             </div>
@@ -182,8 +214,42 @@
                 </div>
                 <div id="question1" class="panel-collapse collapse" style="height: 0px;">
                 <div class="panel-body">
-                     <h5><span class="label label-primary">Answer</span></h5>
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+                     <!-- -->
+                     <div class="container">
+                        <div class="row">
+                          <div class="col-sm-4 col-md-4 col-lg-4">
+                            <div style="width:200px; height:290px;">
+                              <a href="#" target="_blank">
+                                <img class="img-responsive" src="images/research.png" alt="Lights" style="width:100%;">
+                                <div class="caption">
+                                  <br><p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="col-sm-4 col-md-4 col-lg-4">
+                            <div style="width:200px; height:290px;">
+                              <a href="#" target=" ">
+                                <img class="img-responsive" src="images/research.png" alt="Nature" style="width:100%;">
+                                <div class="caption">
+                                  <br><p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="col-sm-4 col-md-4 col-lg-4">
+                            <div style="width:200px; height:290px;">
+                              <a href="#" target=" ">
+                                <img class="img-responsive" src="images/research.png" alt="Fjords" style="width:100%;">
+                                <div class="caption">
+                                  <br><p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    <!-- -->
                 </div>
                 </div>
                 </div>
@@ -196,8 +262,42 @@
                   </div>
                   <div id="question2" class="panel-collapse collapse" style="height: 0px;">
                     <div class="panel-body">
-                     <h5><span class="label label-primary">Answer</span></h5>
-                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+                     <!-- -->
+                     <div class="container">
+                        <div class="row">
+                          <div class="col-sm-4 col-md-4 col-lg-4">
+                            <div style="width:200px; height:290px;">
+                              <a href="#" target="_blank">
+                                <img class="img-responsive" src="images/research.png" alt="Lights" style="width:100%;">
+                                <div class="caption">
+                                  <br><p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="col-sm-4 col-md-4 col-lg-4">
+                            <div style="width:200px; height:290px;">
+                              <a href="#" target=" ">
+                                <img class="img-responsive" src="images/research.png" alt="Nature" style="width:100%;">
+                                <div class="caption">
+                                  <br><p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="col-sm-4 col-md-4 col-lg-4">
+                            <div style="width:200px; height:290px;">
+                              <a href="#" target=" ">
+                                <img class="img-responsive" src="images/research.png" alt="Fjords" style="width:100%;">
+                                <div class="caption">
+                                  <br><p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    <!-- -->
                     </div>
                   </div>
                 </div>
@@ -210,9 +310,42 @@
                   </div>
                   <div id="question3" class="panel-collapse collapse" style="height: 0px;">
                     <div class="panel-body">
-                     <h5><span class="label label-primary">Answer</span></h5>
-
-                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. </p>
+                     <!-- -->
+                     <div class="container">
+                        <div class="row">
+                          <div class="col-sm-4 col-md-4 col-lg-4">
+                            <div style="width:200px; height:290px;">
+                              <a href="#" target="_blank">
+                                <img class="img-responsive" src="images/research.png" alt="Lights" style="width:100%;">
+                                <div class="caption">
+                                  <br><p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="col-sm-4 col-md-4 col-lg-4">
+                            <div style="width:200px; height:290px;">
+                              <a href="#" target=" ">
+                                <img class="img-responsive" src="images/research.png" alt="Nature" style="width:100%;">
+                                <div class="caption">
+                                  <br><p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="col-sm-4 col-md-4 col-lg-4">
+                            <div style="width:200px; height:290px;">
+                              <a href="#" target=" ">
+                                <img class="img-responsive" src="images/research.png" alt="Fjords" style="width:100%;">
+                                <div class="caption">
+                                  <br><p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    <!-- -->
                     </div>
                   </div>
                   </div>
@@ -231,10 +364,42 @@
                 </div>
                 <div id="question4" class="panel-collapse collapse" style="height: 0px;">
                   <div class="panel-body">
-                     <h5><span class="label label-primary">Answer</span></h5>
-
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five <a href="http://jquery2dotnet.com/" class="label label-success">http://jquery2dotnet.com/</a> centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                        </p>
+                     <!-- -->
+                     <div class="container">
+                        <div class="row">
+                          <div class="col-sm-4 col-md-4 col-lg-4">
+                            <div style="width:200px; height:290px;">
+                              <a href="#" target="_blank">
+                                <img class="img-responsive" src="images/research.png" alt="Lights" style="width:100%;">
+                                <div class="caption">
+                                  <br><p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="col-sm-4 col-md-4 col-lg-4">
+                            <div style="width:200px; height:290px;">
+                              <a href="#" target=" ">
+                                <img class="img-responsive" src="images/research.png" alt="Nature" style="width:100%;">
+                                <div class="caption">
+                                  <br><p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="col-sm-4 col-md-4 col-lg-4">
+                            <div style="width:200px; height:290px;">
+                              <a href="#" target=" ">
+                                <img class="img-responsive" src="images/research.png" alt="Fjords" style="width:100%;">
+                                <div class="caption">
+                                  <br><p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    <!-- -->
                   </div>
                 </div>
             </div>
@@ -247,8 +412,42 @@
                 </div>
                 <div id="question5" class="panel-collapse collapse" style="height: 0px;">
                 <div class="panel-body">
-                     <h5><span class="label label-primary">Answer</span></h5>
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+                     <!-- -->
+                     <div class="container">
+                        <div class="row">
+                          <div class="col-sm-4 col-md-4 col-lg-4">
+                            <div style="width:200px; height:290px;">
+                              <a href="#" target="_blank">
+                                <img class="img-responsive" src="images/research.png" alt="Lights" style="width:100%;">
+                                <div class="caption">
+                                  <br><p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="col-sm-4 col-md-4 col-lg-4">
+                            <div style="width:200px; height:290px;">
+                              <a href="#" target=" ">
+                                <img class="img-responsive" src="images/research.png" alt="Nature" style="width:100%;">
+                                <div class="caption">
+                                  <br><p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="col-sm-4 col-md-4 col-lg-4">
+                            <div style="width:200px; height:290px;">
+                              <a href="#" target=" ">
+                                <img class="img-responsive" src="images/research.png" alt="Fjords" style="width:100%;">
+                                <div class="caption">
+                                  <br><p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    <!-- -->
                 </div>
                 </div>
                 </div>
@@ -261,8 +460,42 @@
                   </div>
                   <div id="question6" class="panel-collapse collapse" style="height: 0px;">
                     <div class="panel-body">
-                     <h5><span class="label label-primary">Answer</span></h5>
-                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+                     <!-- -->
+                     <div class="container">
+                        <div class="row">
+                          <div class="col-sm-4 col-md-4 col-lg-4">
+                            <div style="width:200px; height:290px;">
+                              <a href="#" target="_blank">
+                                <img class="img-responsive" src="images/research.png" alt="Lights" style="width:100%;">
+                                <div class="caption">
+                                  <br><p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="col-sm-4 col-md-4 col-lg-4">
+                            <div style="width:200px; height:290px;">
+                              <a href="#" target=" ">
+                                <img class="img-responsive" src="images/research.png" alt="Nature" style="width:100%;">
+                                <div class="caption">
+                                  <br><p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="col-sm-4 col-md-4 col-lg-4">
+                            <div style="width:200px; height:290px;">
+                              <a href="#" target=" ">
+                                <img class="img-responsive" src="images/research.png" alt="Fjords" style="width:100%;">
+                                <div class="caption">
+                                  <br><p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    <!-- -->
                     </div>
                   </div>
                 </div>
@@ -275,9 +508,42 @@
                   </div>
                   <div id="question7" class="panel-collapse collapse" style="height: 0px;">
                     <div class="panel-body">
-                     <h5><span class="label label-primary">Answer</span></h5>
-
-                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. </p>
+                     <!-- -->
+                     <div class="container">
+                        <div class="row">
+                          <div class="col-sm-4 col-md-4 col-lg-4">
+                            <div style="width:200px; height:290px;">
+                              <a href="#" target="_blank">
+                                <img class="img-responsive" src="images/research.png" alt="Lights" style="width:100%;">
+                                <div class="caption">
+                                  <br><p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="col-sm-4 col-md-4 col-lg-4">
+                            <div style="width:200px; height:290px;">
+                              <a href="#" target=" ">
+                                <img class="img-responsive" src="images/research.png" alt="Nature" style="width:100%;">
+                                <div class="caption">
+                                  <br><p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="col-sm-4 col-md-4 col-lg-4">
+                            <div style="width:200px; height:290px;">
+                              <a href="#" target=" ">
+                                <img class="img-responsive" src="images/research.png" alt="Fjords" style="width:100%;">
+                                <div class="caption">
+                                  <br><p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    <!-- -->
                     </div>
                   </div>
                   </div>
@@ -296,10 +562,42 @@
                 </div>
                 <div id="question8" class="panel-collapse collapse" style="height: 0px;">
                   <div class="panel-body">
-                     <h5><span class="label label-primary">Answer</span></h5>
-
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five <a href="http://jquery2dotnet.com/" class="label label-success">http://jquery2dotnet.com/</a> centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                        </p>
+                    <!-- -->
+                     <div class="container">
+                        <div class="row">
+                          <div class="col-sm-4 col-md-4 col-lg-4">
+                            <div style="width:200px; height:290px;">
+                              <a href="#" target="_blank">
+                                <img class="img-responsive" src="images/research.png" alt="Lights" style="width:100%;">
+                                <div class="caption">
+                                  <br><p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="col-sm-4 col-md-4 col-lg-4">
+                            <div style="width:200px; height:290px;">
+                              <a href="#" target=" ">
+                                <img class="img-responsive" src="images/research.png" alt="Nature" style="width:100%;">
+                                <div class="caption">
+                                  <br><p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="col-sm-4 col-md-4 col-lg-4">
+                            <div style="width:200px; height:290px;">
+                              <a href="#" target=" ">
+                                <img class="img-responsive" src="images/research.png" alt="Fjords" style="width:100%;">
+                                <div class="caption">
+                                  <br><p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    <!-- -->
                   </div>
                 </div>
             </div>
@@ -312,8 +610,42 @@
                 </div>
                 <div id="question9" class="panel-collapse collapse" style="height: 0px;">
                 <div class="panel-body">
-                     <h5><span class="label label-primary">Answer</span></h5>
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+                     <!-- -->
+                     <div class="container">
+                        <div class="row">
+                          <div class="col-sm-4 col-md-4 col-lg-4">
+                            <div style="width:200px; height:290px;">
+                              <a href="#" target="_blank">
+                                <img class="img-responsive" src="images/research.png" alt="Lights" style="width:100%;">
+                                <div class="caption">
+                                  <br><p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="col-sm-4 col-md-4 col-lg-4">
+                            <div style="width:200px; height:290px;">
+                              <a href="#" target=" ">
+                                <img class="img-responsive" src="images/research.png" alt="Nature" style="width:100%;">
+                                <div class="caption">
+                                  <br><p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="col-sm-4 col-md-4 col-lg-4">
+                            <div style="width:200px; height:290px;">
+                              <a href="#" target=" ">
+                                <img class="img-responsive" src="images/research.png" alt="Fjords" style="width:100%;">
+                                <div class="caption">
+                                  <br><p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    <!-- -->
                 </div>
                 </div>
                 </div>
@@ -326,8 +658,42 @@
                   </div>
                   <div id="question10" class="panel-collapse collapse" style="height: 0px;">
                     <div class="panel-body">
-                     <h5><span class="label label-primary">Answer</span></h5>
-                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+                     <!-- -->
+                     <div class="container">
+                        <div class="row">
+                          <div class="col-sm-4 col-md-4 col-lg-4">
+                            <div style="width:200px; height:290px;">
+                              <a href="#" target="_blank">
+                                <img class="img-responsive" src="images/research.png" alt="Lights" style="width:100%;">
+                                <div class="caption">
+                                  <br><p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="col-sm-4 col-md-4 col-lg-4">
+                            <div style="width:200px; height:290px;">
+                              <a href="#" target=" ">
+                                <img class="img-responsive" src="images/research.png" alt="Nature" style="width:100%;">
+                                <div class="caption">
+                                  <br><p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="col-sm-4 col-md-4 col-lg-4">
+                            <div style="width:200px; height:290px;">
+                              <a href="#" target=" ">
+                                <img class="img-responsive" src="images/research.png" alt="Fjords" style="width:100%;">
+                                <div class="caption">
+                                  <br><p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    <!-- -->
                     </div>
                   </div>
                 </div>
@@ -340,9 +706,42 @@
                   </div>
                   <div id="question11" class="panel-collapse collapse" style="height: 0px;">
                     <div class="panel-body">
-                     <h5><span class="label label-primary">Answer</span></h5>
-
-                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. </p>
+                     <!-- -->
+                     <div class="container">
+                        <div class="row">
+                          <div class="col-sm-4 col-md-4 col-lg-4">
+                            <div style="width:200px; height:290px;">
+                              <a href="#" target="_blank">
+                                <img class="img-responsive" src="images/research.png" alt="Lights" style="width:100%;">
+                                <div class="caption">
+                                  <br><p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="col-sm-4 col-md-4 col-lg-4">
+                            <div style="width:200px; height:290px;">
+                              <a href="#" target=" ">
+                                <img class="img-responsive" src="images/research.png" alt="Nature" style="width:100%;">
+                                <div class="caption">
+                                  <br><p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="col-sm-4 col-md-4 col-lg-4">
+                            <div style="width:200px; height:290px;">
+                              <a href="#" target=" ">
+                                <img class="img-responsive" src="images/research.png" alt="Fjords" style="width:100%;">
+                                <div class="caption">
+                                  <br><p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    <!-- -->
                     </div>
                   </div>
                   </div>
@@ -361,10 +760,42 @@
                 </div>
                 <div id="question12" class="panel-collapse collapse" style="height: 0px;">
                   <div class="panel-body">
-                     <h5><span class="label label-primary">Answer</span></h5>
-
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five <a href="http://jquery2dotnet.com/" class="label label-success">http://jquery2dotnet.com/</a> centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                        </p>
+                     <!-- -->
+                     <div class="container">
+                        <div class="row">
+                          <div class="col-sm-4 col-md-4 col-lg-4">
+                            <div style="width:200px; height:290px;">
+                              <a href="#" target="_blank">
+                                <img class="img-responsive" src="images/research.png" alt="Lights" style="width:100%;">
+                                <div class="caption">
+                                  <br><p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="col-sm-4 col-md-4 col-lg-4">
+                            <div style="width:200px; height:290px;">
+                              <a href="#" target=" ">
+                                <img class="img-responsive" src="images/research.png" alt="Nature" style="width:100%;">
+                                <div class="caption">
+                                  <br><p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="col-sm-4 col-md-4 col-lg-4">
+                            <div style="width:200px; height:290px;">
+                              <a href="#" target=" ">
+                                <img class="img-responsive" src="images/research.png" alt="Fjords" style="width:100%;">
+                                <div class="caption">
+                                  <br><p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    <!-- -->
                   </div>
                 </div>
             </div>
@@ -377,8 +808,42 @@
                 </div>
                 <div id="question13" class="panel-collapse collapse" style="height: 0px;">
                 <div class="panel-body">
-                     <h5><span class="label label-primary">Answer</span></h5>
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+                     <!-- -->
+                     <div class="container">
+                        <div class="row">
+                          <div class="col-sm-4 col-md-4 col-lg-4">
+                            <div style="width:200px; height:290px;">
+                              <a href="#" target="_blank">
+                                <img class="img-responsive" src="images/research.png" alt="Lights" style="width:100%;">
+                                <div class="caption">
+                                  <br><p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="col-sm-4 col-md-4 col-lg-4">
+                            <div style="width:200px; height:290px;">
+                              <a href="#" target=" ">
+                                <img class="img-responsive" src="images/research.png" alt="Nature" style="width:100%;">
+                                <div class="caption">
+                                  <br><p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="col-sm-4 col-md-4 col-lg-4">
+                            <div style="width:200px; height:290px;">
+                              <a href="#" target=" ">
+                                <img class="img-responsive" src="images/research.png" alt="Fjords" style="width:100%;">
+                                <div class="caption">
+                                  <br><p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    <!-- -->
                 </div>
                 </div>
                 </div>
@@ -391,8 +856,42 @@
                   </div>
                   <div id="question14" class="panel-collapse collapse" style="height: 0px;">
                     <div class="panel-body">
-                     <h5><span class="label label-primary">Answer</span></h5>
-                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+                     <!-- -->
+                     <div class="container">
+                        <div class="row">
+                          <div class="col-sm-4 col-md-4 col-lg-4">
+                            <div style="width:200px; height:290px;">
+                              <a href="#" target="_blank">
+                                <img class="img-responsive" src="images/research.png" alt="Lights" style="width:100%;">
+                                <div class="caption">
+                                  <br><p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="col-sm-4 col-md-4 col-lg-4">
+                            <div style="width:200px; height:290px;">
+                              <a href="#" target=" ">
+                                <img class="img-responsive" src="images/research.png" alt="Nature" style="width:100%;">
+                                <div class="caption">
+                                  <br><p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="col-sm-4 col-md-4 col-lg-4">
+                            <div style="width:200px; height:290px;">
+                              <a href="#" target=" ">
+                                <img class="img-responsive" src="images/research.png" alt="Fjords" style="width:100%;">
+                                <div class="caption">
+                                  <br><p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    <!-- -->
                     </div>
                   </div>
                 </div>
@@ -405,9 +904,42 @@
                   </div>
                   <div id="question15" class="panel-collapse collapse" style="height: 0px;">
                     <div class="panel-body">
-                     <h5><span class="label label-primary">Answer</span></h5>
-
-                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. </p>
+                     <!-- -->
+                     <div class="container">
+                        <div class="row">
+                          <div class="col-sm-4 col-md-4 col-lg-4">
+                            <div style="width:200px; height:290px;">
+                              <a href="#" target="_blank">
+                                <img class="img-responsive" src="images/research.png" alt="Lights" style="width:100%;">
+                                <div class="caption">
+                                  <br><p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="col-sm-4 col-md-4 col-lg-4">
+                            <div style="width:200px; height:290px;">
+                              <a href="#" target=" ">
+                                <img class="img-responsive" src="images/research.png" alt="Nature" style="width:100%;">
+                                <div class="caption">
+                                  <br><p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="col-sm-4 col-md-4 col-lg-4">
+                            <div style="width:200px; height:290px;">
+                              <a href="#" target=" ">
+                                <img class="img-responsive" src="images/research.png" alt="Fjords" style="width:100%;">
+                                <div class="caption">
+                                  <br><p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    <!-- -->
                     </div>
                   </div>
                   </div>
@@ -415,7 +947,7 @@
           </div>
     </li>
     </ul>
-    <div align="right"> 
+        <div align="right"> 
             <a href='#top'>Back to Top</a> 
           </div>
         </div>
@@ -436,13 +968,14 @@
           </div>
           
           <div class="col-sm-12 col-md-12 col-lg-6" align="left" style="font-size: 15px;"><br>
-            <p><b>สำนักหอสมุด มหาวิทยาลัยขอนแก่น <br>
-                123 ถนนมิตรภาพ ต.ในเมือง อ.เมือง จ.ขอนแก่น 40002 <br>
-                โทรศัพท์: 0 4320 2541, โทรสาร: 0 4320 2543 <br>
-                อีเมล: library@kku.ac.th <br>
-            <a href="https://library.kku.ac.th/telphone/" style="color:black;">
-            เบอร์โทรภายในคลิกที่นี่</a> 
-            </b></p> 
+            <div style="font-size: 15px;">
+              <div><b>สำนักหอสมุด มหาวิทยาลัยขอนแก่น </b></div>
+                <div class="glyphicon glyphicon-home"><b>&nbsp;123 ถนนมิตรภาพ ต.ในเมือง อ.เมือง จ.ขอนแก่น 40002</b></div><br>
+                <div class="glyphicon glyphicon-earphone"><b>&nbsp;โทรศัพท์: 0-4320-2541, โทรสาร: 0-4320-2543</b></div><br>
+                <div class="glyphicon glyphicon-envelope"><b>&nbsp;อีเมล: library@kku.ac.th</b></div><br>
+                <div class="glyphicon glyphicon-phone-alt"><a href="https://library.kku.ac.th/telphone/" style="color:black;"><b>&nbsp;เบอร์โทรภายในคลิกที่นี่</b></a></div> 
+              
+            </div> 
           </div>
       <p> <br></p>
       </div>
